@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>Hi, I'm Akhila Madhu</h1>
+    </header>    
+    <!-- navigation links -->
+    <nav>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <main>        
+        <!-- section - to group a particular set of related contents -->
+        <section id="#about">
+            <article>
+                <header>
+                    <h2>About Me</h2>
+                </header>
+                <p>
+                    <!-- image details -->
+                    <img src="images/Akhila.jpg" alt="My profile photo" width="200"><br><br>
+                    I am Akhila Madhu, an MCA graduate (2019) with a strong foundation in computer applications and
+                    project management. Currently, I work as a Project Coordinator at Plant Lipids Private Limited,
+                    Kolencheri, where I manage and streamline projects for smooth execution and timely delivery.
+                    Alongside my project management experience, I am passionate about expanding my technical
+                    expertise, continuously learning new technologies, and transitioning my career into software
+                    development.
+                </p>
+                <header>
+                    <h3>Skills</h3>
+                </header>
+                <!-- this is an unordered list -->
+                <ul>
+                    <li>Project and process management</li>
+                    <li>Teamwork & resource allocation</li>
+                    <li>Clear verbal & written communication</li>
+                    <li>Active listening & feedback handling</li>
+                    <li>Handling project management tools</li>
+                </ul>
+            </article>
+        </section>
+        <section id="projects">
+            <article>
+                <header>
+                    <h2>Projects</h2>
+                </header>
+                <!-- table format -->
+                <table border="2px">
+                    <thead>
+                        <tr>
+                            <th>Sl. No.</th>
+                            <th>Project Name</th>
+                            <th>Description</th>
+                            <th>Skills Used</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Main Project - Heart Disease Diagnosis</td>
+                            <td>Research project focused on processing patient data and predicting the likelihood of
+                                heart disease using data analysis and predictive modeling techniques</td>
+                            <td>PHP, MySQL, HTML, JavaScript, CSS</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Mini Project - Canteen Management System</td>
+                            <td>Developed an application software to efficiently manage and track customer orders
+                                online, ensuring streamlined processing and improved user experience</td>
+                            <td>PHP, MySQL, HTML, JavaScript, CSS</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Micro Project - Medical Shop Management System</td>
+                            <td>Developed an application software for a medical shop to manage and track patient
+                                orders online, ensuring efficient order processing, accurate inventory management,
+                                and improved accessibility for customers</td>
+                            <td>PHP, MySQL, HTML, JavaScript, CSS</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </article>
+        </section>
+        <section id="contact">
+            <header>
+                <h2>Contact Details</h2>
+            </header>
+            <!-- adding a contact form -->
+            <form action="#" method="post">
+                <!-- text input for name -->
+                <label for="name">Name: </label><br>
+                <input type="text" name="name" id="name" placeholder="Your name" minlength="3" maxlength="15" required>
+                <br><br>
+                <!-- input type set as email for restricting the user to type a valid email -->
+                <label for="email">Email: </label><br>
+                <input type="email" name="email" id="email" placeholder="Your email address"required>
+                <br><br>
+                <label for="subject">Subject: </label><br>
+                <input type="text" name="subject" id="subject" placeholder="Enter the subject" required>
+                <br><br>
+                <!-- textarea is for inputing multiple lines of text -->
+                <label for="message">Message: </label><br>
+                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                <br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>    
+</body>
+</html>
