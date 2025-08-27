@@ -96,7 +96,7 @@
                 <h2>Contact Details</h2>
             </header>
             <!-- adding a contact form -->
-            <form action="#" method="post">
+            <form>
                 <!-- text input for name -->
                 <label for="name">Name: </label><br>
                 <input type="text" name="name" id="name" placeholder="Your name" minlength="3" maxlength="15" required>
@@ -106,11 +106,11 @@
                 <input type="email" name="email" id="email" placeholder="Your email address"required>
                 <br><br>
                 <label for="subject">Subject: </label><br>
-                <input type="text" name="subject" id="subject" placeholder="Enter the subject" required>
+                <input type="text" name="subject" id="subject" placeholder="Enter the subject" pattern="[A-Za-z\s]+" title="only alphabets & spaces are allowed" required>
                 <br><br>
                 <!-- textarea is for inputing multiple lines of text -->
                 <label for="message">Message: </label><br>
-                <textarea name="message" id="message" cols="30" rows="5"></textarea>
+                <textarea name="message" id="message" cols="30" rows="5" required pattern="[a-z]{5,25}"></textarea>
                 <br><br>
                 <button type="submit">Submit</button>
             </form>
