@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <h1>Hi, I'm Akhila Madhu</h1>
-    </header>    
+      <div class="headings"></div>
     <!-- navigation links -->
     <nav>
         <ul>
@@ -19,16 +20,15 @@
             </li>
         </ul>
     </nav>
+    </header>  
     <main>        
         <!-- section - to group a particular set of related contents -->
         <section id="#about">
-            <article>
-                <header>
-                    <h2>About Me</h2>
-                </header>
-                <p>
-                    <!-- image details -->
-                    <img src="images/Akhila.jpg" alt="My profile photo" width="200"><br><br>
+            <h2>About Me</h2>
+            <div class="container">
+                <!-- image details -->
+                    <img src="images/Akhila.jpg" alt="My profile photo" width="200">
+                <p>  
                     I am Akhila Madhu, an MCA graduate (2019) with a strong foundation in computer applications and
                     project management. Currently, I work as a Project Coordinator at Plant Lipids Private Limited,
                     Kolencheri, where I manage and streamline projects for smooth execution and timely delivery.
@@ -36,24 +36,23 @@
                     expertise, continuously learning new technologies, and transitioning my career into software
                     development.
                 </p>
-                <header>
-                    <h3>Skills</h3>
-                </header>
+            </div>
+                <h2>Skills</h2>
                 <!-- this is an unordered list -->
-                <ul>
+                <ul class="list">
                     <li>Project and process management</li>
                     <li>Teamwork & resource allocation</li>
                     <li>Clear verbal & written communication</li>
                     <li>Active listening & feedback handling</li>
                     <li>Handling project management tools</li>
                 </ul>
-            </article>
         </section>
         <section id="projects">
             <article>
-                <header>
-                    <h2>Projects</h2>
-                </header>
+                <h2>Projects</h2>
+                <div class="project">
+                    
+                
                 <!-- table format -->
                 <table border="2px">
                     <thead>
@@ -89,13 +88,16 @@
                         </tr>
                     </tbody>
                 </table>
+                </div>
             </article>
         </section>
         <section id="contact">
-            <header>
-                <h2>Contact Details</h2>
-            </header>
+            
+                
+            
             <!-- adding a contact form -->
+             <div class="contact">
+                <h2>Contact Details</h2>
             <form>
                 <!-- text input for name -->
                 <label for="name">Name: </label><br>
@@ -114,6 +116,7 @@
                 <br><br>
                 <button type="submit">Submit</button>
             </form>
+            </div>
         </section>
     </main>    
 </body>

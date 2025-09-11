@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    margin-left: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+    height: 80px;
+    margin: auto;
+    background-color: #4CAF50;
+    color: white;
+    text-align: right;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.container img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+.container p {
+    padding: 20px;
+    font-size: 18px;
+    color: #333;
+    margin: auto;
+    /* font-weight: bold; */
+}
+ul.list {
+      list-style-type: square;  
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      margin-left: 20px;
+      font-size: 18px;
+
+    }
+body{
+    font-family: "Playfair Display", serif;
+    background-color: antiquewhite;    
+}
+nav a {
+    color: black;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+    transition: 0.3s; 
+    text-align: end;
+}
+nav a:hover {
+      color: #ffffff;
+      text-decoration: underline;
+    }
+.project{
+    padding: 20px;
+    margin: auto;
+}
+
+table {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+th {
+    background-color: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+tr:hover {
+    background-color: #e0ffe0; 
+}
+.contact{
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: antiquewhite;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form{
+    border-radius: 5px;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+}
+input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #333;
+  background-color: #f9f9f9;
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s ease-in-out; /* Smooth transition for border color */
+}
+input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #333;
+  background-color: #f9f9f9;
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s ease-in-out; /* Smooth transition for border color */
+}
+textarea{
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  color: #333;
+  background-color: #f9f9f9;
+  outline: none; /* Remove default outline */
+  transition: border-color 0.3s ease-in-out; /* Smooth transition for border color */
+}
+button{
+    border-radius: 8px;
+    border-color: #4CAF50;
+    width: 300px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    background-color: #4CAF50;
+    align-self: center;
+    font-weight: bold;
+}
+button:hover{
+    background-color: #e0ffe0;
+}
