@@ -53,8 +53,7 @@ ul.list {
       padding-left: 20px;
       margin-left: 20px;
       font-size: 18px;
-
-    }
+}
 body{
     font-family: "Playfair Display", serif;
     background-color: antiquewhite;    
@@ -142,7 +141,7 @@ textarea{
   padding: 10px;
   border: 2px solid #ccc;
   border-radius: 5px;
-  font-size: 12px;
+  font-size: 1em;
   color: #333;
   background-color: #f9f9f9;
   outline: none; /* Remove default outline */
@@ -160,4 +159,39 @@ button{
 }
 button:hover{
     background-color: #e0ffe0;
+}
+
+/* Responsive Styles */
+@media all and (max-width: 768px) {
+  body{
+    font-family: "Playfair Display", serif;
+    background-color: lightsteelblue; 
+}
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+}
+@media all and (min-width: 769px) {
+  body{
+    font-family: "Playfair Display", serif;
+    background-color: lightgray;    
+}
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+}
+@media all and (max-width: 1024px) {
+  body{
+    font-family: "Playfair Display", serif;
+    background-color: lightcyan;     
+}
+img{
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
 }
